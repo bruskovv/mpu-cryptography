@@ -81,6 +81,6 @@ if __name__ == "__main__":
     print(permutation_decryptor("ycpritsoogdo", [3, 1, 4, 2]))               # cryptoisgood
     print(permutation_enryptor("attack at dawn", [4, 1, 3, 2]))              # aatttcakndwa
     print(permutation_decryptor("aatttcakndwa", [4, 1, 3, 2]))               # attackatdawn
-    print(permutation_enryptor("пришёл увидел победил", "2 5 1 4 3"))        # с заполнителем
+    print(permutation_enryptor("под ногами ток", "2 5 1 4 3"))        # с заполнителем
     print(permutation_decryptor(
-        permutation_enryptor("пришёл увидел победил", "2 5 1 4 3"), "2 5 1 4 3"))
+        permutation_enryptor("под ногами ток", "2 5 1 4 3"), "2 5 1 4 3"))
